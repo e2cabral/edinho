@@ -1,0 +1,31 @@
+{
+  "name": "eddie-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ferramenta CLI para criar projetos Lambda a partir de templates",
+  "main": "index.js",
+  "bin": {
+    "edinho": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lambda",
+    "aws",
+    "cli",
+    "template"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "degit": "^2.8.4",
+    "fs-extra": "^11.3.0",
+    "git-clone-repo": "^1.0.0",
+    "inquirer": "^12.6.1",
+    "node": "^20.19.2",
+    "simple-git": "^3.27.0"
+  }
+}
